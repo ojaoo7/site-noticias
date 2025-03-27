@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+header {
+    background-color: #2a4d72;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+nav {
+    background-color: #c00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    position: relative;
+    width: 62%;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+.linha-navbar {
+    position: absolute;
+    bottom: -2px;
+    width: 100%;
+}
+
+.nav-bg {
+    position: relative;
+    width: 100%;
+    background: url('../img/fundo.png') repeat-x center;
+    margin-top: 20px;
+}
+
+.mapa-brasil {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 120px;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.entrevistas {
+    width: 20%;
+    background: #f4f4f4;
+    padding: 15px;
+    border-right: 2px solid #ccc;
+}
+
+.entrevistas h2 {
+    background-color: #2a4d72;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.entrevistas ul {
+    list-style: none;
+    padding: 0;
+}
+
+.entrevistas ul li {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.conteudo {
+    width: 75%;
+}
+
+.destaque, .ultima-entrevista {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.destaque img, .ultima-entrevista img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.destaque h3, .ultima-entrevista h3 {
+    color: #c00;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #c00;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+a {
+    color: #c00;
+    text-decoration: none;
+    font-weight: bold;
+}
